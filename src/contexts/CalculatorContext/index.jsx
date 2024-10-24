@@ -10,7 +10,6 @@ export const CalculatorProvider = ({children}) => {
     let [sign, setSign] = useState('');
 
     const numPressed = (key) => {
-        console.log(key)
         if(isSignPressed === false){
             setValue1(value1 += key);
             setScreenText(value1);

@@ -1,6 +1,4 @@
 .screen{
-    display: flex;
-    justify-content: flex-end;
     background-color: var(--screen-bg-color);
     border-radius: 8px;
     padding:20px 16px 24px 16px;
@@ -9,7 +7,11 @@
 }
 
 .screen label{
+    display: flex;
+    justify-content: flex-end;
+    overflow:hidden;
     color:var(--screen-text-color);
     font-weight: 700;
     min-height: 48px;
+    flex-shrink: 1;
 }
