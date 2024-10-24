@@ -1,0 +1,50 @@
+.toggle{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    gap:2px;
+}
+
+.toggleWrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:4px;
+    border:none;
+    background-color: var(--toggle-bg-color);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.toggleBtn {
+    height: 14px;
+    width: 14px;
+    background-color: var(--toggle-key-color);
+    border-radius: 50%;
+  }
+
+  input:hover {
+    cursor: pointer;
+  }
+
+ .active {
+    opacity: 1;
+}
+
+.secondState{
+  justify-content: center;
+}
+
+.thirdState{
+  justify-content: flex-end;
+}
+
+.states{
+  display: flex;
+  justify-content: space-between;
+  font-family: "league spartan", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 6px;
+  padding-right: 6px;
+}

@@ -1,0 +1,14 @@
+.toggleWrapper{
+    display: flex;
+    gap:32px;
+    align-items: center;
+}
+
+.toggleWrapper h4{
+    text-transform: uppercase;
+    font-family: "League Spartan", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: 4px;
+}

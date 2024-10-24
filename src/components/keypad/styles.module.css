@@ -1,0 +1,14 @@
+.keyPad{
+    background-color: var(--toggle-bg-color);
+    padding:16px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    border-radius: 8px;
+    flex:1;
+}
+
+.row{
+    display: flex;
+    gap:16px;
+}

@@ -1,0 +1,59 @@
+.App[data-theme='1']{
+  --main-bg-color:hsl(222, 26%, 31%);
+  --toggle-bg-color:hsl(223, 31%, 20%);
+  --screen-bg-color:hsl(224, 36%, 15%);
+  --screen-text-color:var(--text-secondary-color);
+  --key-bg-color:hsl(225, 21%, 49%);
+  --key-shadow-color:hsl(224, 28%, 35%);
+  --toggle-key-color:hsl(6, 63%, 50%);
+  --toggle-shadow-color:hsl(6, 70%, 34%);
+  --key-secondary-color:hsl(30, 25%, 89%);
+  --key-secondary-shadow:hsl(28, 16%, 65%);
+  --text-primary-color:hsl(221, 14%, 31%);
+  --text-secondary-color: hsl(0, 0%, 100%);
+  --equals-text-color: var(--text-secondary-color);
+  --header-text-color:var(--text-secondary-color);
+  --number-font-size:32px;
+}
+
+.App[data-theme='2']{
+  --main-bg-color:hsl(0, 0%, 90%);
+  --toggle-bg-color:hsl(0, 5%, 81%);
+  --screen-bg-color:hsl(0, 0%, 93%);
+  --screen-text-color:var(--text-primary-color);
+  --key-bg-color:hsl(185, 42%, 37%);
+  --key-shadow-color:hsl(185, 58%, 25%);
+  --toggle-key-color:hsl(25, 98%, 40%);
+  --toggle-shadow-color:hsl(25, 99%, 27%);
+  --key-secondary-color:hsl(45, 7%, 89%);
+  --key-secondary-shadow:hsl(35, 11%, 61%);
+  --text-primary-color:hsl(60, 10%, 19%);
+  --text-secondary-color: hsl(0, 0%, 100%);
+  --equals-text-color: var(--text-secondary-color);
+  --header-text-color:var(--text-primary-color);
+  --number-font-size:32px;
+}
+
+.App[data-theme='3']{
+  --main-bg-color:hsl(268, 75%, 9%);
+  --toggle-bg-color:hsl(268, 71%, 12%);
+  --screen-bg-color:hsl(268, 71%, 12%);
+  --screen-text-color:var(--text-primary-color);
+  --key-bg-color:hsl(281, 89%, 26%);
+  --key-shadow-color:hsl(285, 91%, 52%);
+  --toggle-key-color:hsl(176, 100%, 44%);
+  --toggle-shadow-color:hsl(177, 92%, 70%);
+  --key-secondary-color: hsl(268, 47%, 21%);
+  --key-secondary-shadow:hsl(290, 70%, 36%);
+  --text-primary-color:hsl(52, 100%, 62%);
+  --text-secondary-color: hsl(0, 0%, 100%);
+  --equals-text-color: hsl(198, 20%, 13%);
+  --header-text-color:var(--text-primary-color);
+  --number-font-size:32px;
+}
+
+.App{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  background-color: var(--main-bg-color);
+}
